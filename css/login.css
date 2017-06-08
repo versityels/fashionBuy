@@ -1,0 +1,24 @@
+body{ background-color: white;}
+.header{ width: 100%; height: 10rem; background-image: url(../img/mine/bg.png); position: relative;}
+.shadow{ width: 100%; height: 100%; background: black; opacity: 0.5; filter: alpha(opacity=50);}
+.btn{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.btn a { display: inline-block; width: 50%; height: 1.5rem; text-align: center; position: absolute; top: 70%; color: white; font-size: 16px !important;}
+.login{ border-right: 1px solid white;}
+.sign{ left: 50%;}
+.return{ width: 4rem; height: 4rem; color: white; text-align: center; line-height: 2.5rem; font-size: 1.8rem !important; }
+.return img{ width: 60%; margin-top: 1rem; margin-left: 1rem;}
+.loginPlate{display: block;}
+.signPlate{display: none;}
+.loginWay{ width: 100%; height: 3.125rem; margin-top: 1.25rem;}
+.loginWay a{ display: inline-block; width: 30%; height: 100%; padding: 0 2.5rem; line-height: 3.125rem; text-align: center;}
+.loginWay .pLogin p{border-bottom: 2px solid #ffc700; width: 6.25rem; margin-left: 20%;}
+.inflow{ width: 84%; margin: 8%; height: 3.125rem; border-bottom: 1px solid #f3f3f3; position: relative;}
+.inflow img{ width: 1.8rem; margin-left: 1rem;}
+.inflow input{ width: 80%; height: 80%; margin-left: 1rem; border: none; font-size: 1.2rem;}
+.fastSign{ margin: 8%; color: #ffc700;}
+.forget{ margin-left: 45%; color: #ffc700;}
+.loginBtn{ border-radius: 3px; width: 80%; height: 3rem; background-color: #333333; color: white; text-align: center; line-height: 2.5rem; margin-left: 10%; margin-right: 10%; margin-top: 20%; border: none; border-radius: 0.2rem;}
+.code{ width: 50% !important;}
+.getCode{ width: 30%; height: 100%; position: absolute; right: 0; background-color: #333333; color: white; border: none; border-radius: 0.2rem;}
+.signBtn{ border-radius: 3px; width: 80%; height: 3rem; background-color: #333333; color: white; text-align: center; line-height: 2.5rem; margin-left: 10%; margin-right: 10%; margin-top: 10%; border: none; border-radius: 0.2rem;}
+.demo{ width: 0; height: 0; position: absolute; left: 22%; bottom: 0; border-left:10px solid transparent; border-right:10px solid transparent; border-bottom:10px solid white;}

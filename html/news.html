@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="../css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="../js/swiper/lib/swiper-3.3.1.min.css" />
+		<link type="text/css" rel="stylesheet" href="../css/news.css" />
+	</head>
+	<body>
+		<div class="header">
+			<input class="search" type="text" placeholder="搜索更多资讯" />
+			<div class="wrapper" id="wrapper">
+				<ul class="nav">
+				<li class="select">推荐</li>
+				<li>人气</li>
+				<li>潮流</li>
+				<li>鞋履</li>
+				<li>视频</li>
+				<li>娱乐</li>
+				<li>正妹</li>
+				<li>音乐</li>
+				<li>生活</li>
+			</ul>
+			</div>
+		</div>
+		<div class="content_wrapper" id="content_wrapper">
+			<div class="content">
+				<div class="swiper">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="../img/news/swiper_img.png"/></div>
+							<div class="swiper-slide"><img src="../img/news/swiper_img1.png"/></div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="newsList">
+					<dl>
+						<dt><img src="../img/news/newsList_img1.png" /></dt>
+						<dd>
+							<p class="listTitle">电  影  |  今 年 第 一 动 作 片 来 了，为 它 等 三 年 值！</p>
+							<p class="personNum">442</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img2.png" /></dt>
+						<dd>
+							<p class="listTitle">Needls 发 布 2017 春 夏 Classic</p>
+							<p class="personNum">3573</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img3.png" /></dt>
+						<dd>
+							<p class="listTitle">just DO it</p>
+							<p class="personNum">16</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img4.png" /></dt>
+						<dd>
+							<p class="listTitle">一件卫衣多少种穿法？ 潮人意想不到得搭配厉害</p>
+							<p class="personNum">4312</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img5.png" /></dt>
+						<dd>
+							<p class="listTitle">这几年除了AJ，大家对nike渐渐失去兴趣了。</p>
+							<p class="personNum">8108</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img6.png" /></dt>
+						<dd>
+							<p class="listTitle">冲着封面我就翻出了这本《COOL》，让</p>
+							<p class="personNum">516</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img7.png" /></dt>
+						<dd>
+							<p class="listTitle">听说读懂这些鞋市黑话，买鞋能省不少钱！</p>
+							<p class="personNum">9862</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img8.png" /></dt>
+						<dd>
+							<p class="listTitle">4月电影指南 | 大片还没看过瘾？ 2017上半年</p>
+							<p class="personNum">1352</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/news/newsList_img9.png" /></dt>
+						<dd>
+							<p class="listTitle">3月春暖花开，你还不会搭配怎么行！</p>
+							<p class="personNum">2453</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<dl>
+				<dt><img src="../img/homepage/footer_nav/e_home_off.png" /></dt>
+				<dd>HOME</dd>
+			</dl>
+			<dl>
+				<dt><img src="../img/homepage/footer_nav/e_home1.png" /></dt>
+				<dd class="weight">NEWS</dd>
+			</dl>
+			<dl>
+				<dt><img src="../img/homepage/footer_nav/e_home2_1.png" /></dt>
+				<dd>SHOP</dd>
+			</dl>
+			<dl>
+				<dt><img src="../img/homepage/footer_nav/e_home4_1.png" /></dt>
+				<dd>YOU</dd>
+			</dl>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/swiper/lib/swiper.min.js"></script>
+	<script type="text/javascript" src="../js/iscroll/lib/iscroll.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript">
+		var myScroll = new IScroll("#wrapper",{
+			scrollY : false,
+			scrollX : true,
+		});
+		var cScroll = new IScroll("#content_wrapper",{
+			scrollY : true,
+			scrollX : false,
+			scrollbars : true,
+		})
+		var swiper = new Swiper(".swiper-container",{
+			autoplay : 2000,
+			speed : 1000,
+			loop : true,
+			pagination : ".swiper-pagination",
+		});
+	</script>
+</html>

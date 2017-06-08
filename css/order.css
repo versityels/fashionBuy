@@ -1,0 +1,20 @@
+header{ width: 100%; height: 5rem; background-color: #333333; color: white; position: fixed; top: 0; left: 0; right: 0; z-index: 199;}
+header p{ width: 100%; height: 100%; text-align: center; line-height: 5rem; font-size: 18px;}
+header div{ position: absolute; top: 1.5rem; width: 2rem;}
+header div img{ width: 2rem; margin-left: 1rem;}
+.state{ width: 100%; height: 3rem; position: fixed; top: 5rem; left: 0; right: 0; border-bottom: 1px solid #ccc; z-index: 199; background: white;}
+.state li{ width: 20%; height: 100%; line-height: 3rem; float: left; text-align: center; font-size: 14px;}
+.content{ position: absolute; width: 100%; top: 8rem; left: 0; right: 0; bottom: 0; background-color: #efeff5;}
+.empty{ width: 100%; position: absolute; top: 20%;}
+.empty img{ width: 50%; display: block; margin: 0 auto;}
+.empty p{ width: 100%; text-align: center; line-height: 3.125rem; color: #9a9a9a;}
+.empty button{ width: 28%; height: 3rem; background-color: #333333; color: white; margin: 1.5rem auto; border: none; display: block; border-radius: 5px;}
+.order{ width: 100%; height: 15rem; background-color: white; border-bottom: 1px solid #ccc;}
+.order dt{ width: 35%; height: 100%; overflow: hidden; float: left;}
+.order dt img{ width: 80%; height: 60%; display: block; margin: 8% auto;}
+.order dd{ float: left; width: 50%; height: 70%; margin-top: 3%; position: relative;}
+.state1{ position: absolute; right: -35px; color: #ffc700;}
+.order dd p{ line-height: 25px;}
+.order button{ float: right; margin-right: 10px; width: 60px; height: 30px; background-color: white; border-radius: 3px;}
+.pay{ color: #ffc700; border: 1px solid #ffc700;}
+.cancel{ border: 1px solid #CCCCCC;}

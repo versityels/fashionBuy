@@ -1,0 +1,136 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"img/homepage/swiper-img/loading3.png",
+			"js/iscroll/lib/zepto.min.js",
+			"img/homepage/swiper-img/loading1.png",
+			"img/homepage/swiper-img/loading2.png",
+			"img/homepage/swiper-img/loading4.png",
+			"js/swiper/lib/swiper-3.3.1.min.css",
+			"js/jquery-1.8.3.js",
+			"js/swiper/lib/swiper.min.js",
+			"css/reset.css"
+		]
+	},
+	"html/homepage.html": {
+		"resources": [
+			"css/homepage.css",
+			"img/homepage/nav_img/nav6.png",
+			"img/homepage/swiper-img/swiper_img3.png",
+			"img/homepage/footer_nav/e_home_on.png",
+			"img/homepage/goods_list/goods1.png",
+			"img/homepage/nav_img/nav4.png",
+			"img/homepage/hotBrand/brand_3.png",
+			"img/homepage/nav_img/nav5.png",
+			"img/homepage/hotBrand/brand_1.png",
+			"img/homepage/footer_nav/e_home4_1.png",
+			"js/common.js",
+			"js/iscroll/lib/iscroll.js",
+			"img/homepage/footer_nav/e_home1_1.png",
+			"img/homepage/nav_img/nav1.png",
+			"img/homepage/swiper-img/swiper_img4.png",
+			"img/homepage/swiper-img/swiper_img2.png",
+			"img/homepage/hotBrand/brand_4.png",
+			"img/homepage/nav_img/nav3.png",
+			"img/homepage/goods_list/goods2.png",
+			"img/homepage/hotBrand/brand_2.png",
+			"img/homepage/footer_nav/e_home2_1.png",
+			"img/homepage/hotBrand/brand_6.png",
+			"img/homepage/nav_img/nav2.png",
+			"img/homepage/nav_img/nav7.png",
+			"css/fontawesome/css/font-awesome.css",
+			"img/homepage/nav_img/nav8.png",
+			"img/homepage/swiper-img/swiper_img1.png",
+			"img/homepage/hotBrand/brand_5.png",
+			"js/jquery-1.8.3.js"
+		],
+		"refer": [
+			"html/news.html"
+		]
+	},
+	"html/news.html": {
+		"resources": [
+			"img/news/newsList_img5.png",
+			"img/news/newsList_img4.png",
+			"img/homepage/footer_nav/e_home1.png",
+			"img/news/newsList_img9.png",
+			"img/news/swiper_img.png",
+			"img/news/newsList_img6.png",
+			"img/news/newsList_img8.png",
+			"img/news/newsList_img2.png",
+			"css/news.css",
+			"img/news/newsList_img1.png",
+			"js/jquery-1.8.3.js",
+			"img/news/look.png",
+			"img/news/search.png",
+			"img/homepage/footer_nav/e_home_off.png",
+			"img/news/swiper_img1.png",
+			"img/news/newsList_img3.png",
+			"img/news/newsList_img7.png"
+		],
+		"refer": [
+			"html/shop.html"
+		]
+	},
+	"html/shop.html": {
+		"resources": [
+			"img/shop/proList_img2.png",
+			"img/shop/proList_img1.png",
+			"img/shop/cart_img.png",
+			"img/homepage/footer_nav/e_home2.png",
+			"css/shop.css",
+			"js/shopCommon.js",
+			"css/shopCommon.css",
+			"js/jquery-1.8.3.js"
+		],
+		"refer": [
+			"html/login.html",
+			"html/loginMine.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"img/mine/bg.png",
+			"img/mine/identifying_code.png",
+			"img/mine/retrun.png",
+			"css/login.css",
+			"img/mine/password_img.png",
+			"js/login.js",
+			"js/iscroll/lib/jquery-2.2.3.min.js",
+			"img/mine/phone_img.png"
+		],
+		"refer": [
+			"html/loginMine.html",
+			"html/homepage.html"
+		]
+	},
+	"html/loginMine.html": {
+		"resources": [
+			"img/mine/notic.png",
+			"img/mine/star.png",
+			"img/mine/order.png",
+			"img/mine/sh.png",
+			"img/mine/collect.png",
+			"img/mine/wc.png",
+			"img/mine/online.png",
+			"img/mine/gb.png",
+			"img/mine/more.png",
+			"img/mine/dfk.png",
+			"img/mine/fh.png",
+			"img/mine/set.png",
+			"js/loginMine.js",
+			"img/mine/love.png",
+			"img/homepage/footer_nav/e_home4.png",
+			"img/mine/service.png",
+			"img/mine/comment.png",
+			"img/mine/jf.png",
+			"js/iscroll/lib/iscroll-min.js",
+			"img/mine/about.png",
+			"css/loginM.css"
+		],
+		"refer": [
+			"html/shop.html"
+		]
+	}
+}

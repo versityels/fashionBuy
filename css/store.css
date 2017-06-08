@@ -1,0 +1,14 @@
+.bland{ width: 100%; margin-bottom: 2rem;}
+.bland dt{ width: 100%; height: 10.5rem;}
+.bland dt img{ width: 100%; height: 100%;}
+.bland dd{ 
+	width: 78%; height: 5rem; 
+	margin-top: 1rem; margin-left: 11%; margin-right: 11%; 
+	color: #999999; line-height: 1.75rem; 
+	overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	display: -webkit-box;
+ 	-webkit-line-clamp: 3;
+ 	-webkit-box-orient: vertical;
+ }
+

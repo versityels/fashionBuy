@@ -1,0 +1,32 @@
+.header{ width: 100%; height: 6.75rem; background-color: #333333;}
+.search{ width: 86%; height: 2rem; background-color: #4f4f4f; border: none; border-radius: 0.625rem; margin-left: 7%; margin-top: 1.25rem; background:#4f4f4f url(../img/news/search.png) no-repeat 32% center;}
+.wrapper{ width: 100%; height: 2rem; margin-top: 1.5rem; overflow: hidden;}
+.nav{ width: 115%; height: 2rem;}
+.nav li{ float: left; color: #e2e2e2; line-height: 2rem; text-align: center; width: 4.375rem; font-size: 1.25rem;}
+.select{ font-size: 1.75rem; font-weight: bold;}
+.content{ overflow: hidden;}
+.swiper{ width: 95%;  margin: 0.625rem auto;}
+.swiper img{ width: 100%;}
+.newsList{ margin-top: 0.625rem; overflow: hidden;}
+.newsList dl{ width: 95%; height: 128px; border-bottom: 1px solid #f6f5f6; margin: 0 auto; overflow: hidden;}
+.newsList dl dt{ margin-top: 0.625rem; float: left;}
+.newsList dl dd{ float: left; width: 132px; height: 108px; margin-top: 0.625rem; margin-left: 0.625rem; position: relative;}
+.listTitle{ color: #333333; font-size: 1.25rem; font-weight: bold; line-height: 1.75rem; l}
+.personNum{ width: 100%; height: 1.25rem; background: url(../img/news/look.png) no-repeat left center; position: absolute; bottom: 0.625rem; color: #bebebe; text-indent: 1.5rem; line-height: 1.25rem;}
+.content_wrapper{ width: 100%; position: absolute; left: 0; top: 6.75rem; bottom: 4.125rem; overflow: hidden;}
+
+
+
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+color:#8f8f8f; text-align: center;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#8f8f8f; text-align: center;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#8f8f8f; text-align: center;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#8f8f8f; text-align: center;
+}

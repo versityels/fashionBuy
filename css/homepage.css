@@ -1,0 +1,23 @@
+.Z_container{ width: 100%; height: auto;}
+.swiper-container{ width: 100%; height: 11.687rem; background-color: #249cd0;}
+.swiper-container img{ width: 100%; height: 11.687rem;}
+.plate{ width: 100%; height: auto; margin-top: 0.625rem; background-color: white; overflow:hidden;}
+.plate_title{ width: 100%; height: 2.312rem; }
+.titleFont{ font-size: 0.75rem; font-weight: bold; text-align: center; line-height: 2.312rem;}
+.underLine{ width: 10%; height: 0.225rem; background-color: #000000; margin: -0.207rem auto; border-radius: 1.25rem;}
+.content_img{ width: 14.375rem; float: left; margin: 0.625rem 0.625rem;}
+.content_img img{ width: 100%; height: 7.625rem;}
+.content_img dd{ text-align: center; margin-top: 0.312rem;}
+.wrapper{ width: 100%; height: 10.125rem; overflow: hidden;}
+.nav{width: 125.375rem; height: 10.125rem;}
+.borderRight{ border-right: none !important;}
+.plateUp{ border-bottom: 1px solid #ccc;}
+.plateUp,.plateDown{ width: 100%; height: 90px; margin-top: 15px; margin-bottom: 10px;}
+.plateUp div,.plateDown div{ width: 33%; height: 70%; border-right: 1px solid #ccc; float: left;}
+.plateUp div img,.plateDown div img{ width: 70%; height: 100%; display: block; margin: 0 auto}
+.cWrapper{ position: absolute; width: 100%; top:0; left: 0; right: 0; bottom: 4.125rem;}
+.plate_goods{ width: 95%; height: auto; margin-left: 2.5%; margin-right: 2.5%;}
+.goods{ display: inline-block; margin-top: 10px; margin-bottom: 0; width: 49%;}
+.goods dt img{ border-radius: 0.625rem; width: 80%; display: block; margin: 0 auto;}
+.goods dd p{ text-align: center; line-height: 1.8rem;}
+
